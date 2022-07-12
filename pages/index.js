@@ -77,7 +77,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>Hi, I'm glad you're here</h1>
+        <h1 className={styles.title}>Hi, I am glad you are here</h1>
 
         <p className={styles.description}>
           Enter an integer between 100 and 10000
@@ -86,7 +86,7 @@ export default function Home() {
         <div>
           <input
             placeholder="Enter number"
-            onChange={(e) => {
+            onChange={(e) => {""
               setNumber(e?.target?.value);
             }}
           />
